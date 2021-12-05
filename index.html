@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <title>ATTA AlKHARE</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
     <script defer src="script.js"></script>
   </head>
@@ -430,12 +431,12 @@ Millions of people check our rates and send money with us every day.
       </h2>
       <form class="modal__form">
         <label>First Name</label>
-        <input type="text" />
+        <input id="name" type="text" />
         <label>Email Address</label>
-        <input type="email" />
+        <input id="email" type="email" />
         <label>Message</label>
-        <textarea type="textarea" ></textarea>
-        <button class="btn">Send &rarr;</button>
+        <textarea id="textarea" type="textarea" ></textarea>
+        <button type="submit" class="btn">Send &rarr;</button>
       </form>
     </div>
     <a href="" class="lang">
