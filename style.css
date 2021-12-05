@@ -42,6 +42,9 @@ body {
   line-height: 1.9;
   background-color: #f3f3f3;
 }
+body.ar{
+font-family: 'Tajawal', sans-serif;
+}
 
 /* GENERAL ELEMENTS */
 .section {
@@ -301,6 +304,9 @@ h4 {
    right: 50%;
    transform:translate(-50%,0%);
    opacity:.5
+ }
+ .ar .header__img{
+   transform:translate(50%,0%);
  }
  .header__title{
    position: relative;
@@ -1001,6 +1007,10 @@ form button:hover{
   justify-content: center;
   text-decoration: none;
 }
+.ar .lang{
+  right:unset;
+  left:5%;
+}
 
 .lang:hover{
   background-color: white;
@@ -1032,6 +1042,10 @@ form button:hover{
 #map{
   margin: 0 auto 2rem auto;
     text-align: center;
+    
+}
+#map iframe{
+  width: 80%;
 }
 
 .footer__text{
@@ -1040,4 +1054,9 @@ form button:hover{
     margin-bottom: 1rem;
     text-align: center;
     font-weight: bold;
+}
+
+.ar .fa-phone{
+  transform: rotateZ(90deg);
+  margin-right: .5rem;
 }
