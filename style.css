@@ -167,6 +167,10 @@ img {
   margin-right: .5rem;
 
 }
+.ar .logo__img{
+  margin-right: unset;
+  margin-left:.5rem
+}
 
 .nav__links {
   display: flex;
