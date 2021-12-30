@@ -1097,16 +1097,19 @@ nav.nav.about{
 .manger{
   display:flex;
   align-items: center;
-  margin-top:2rem;
+  margin-top:.5rem;
   margin-bottom: 2rem;
+  
+ 
 }
 .manger h2{
-  font-size: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 .manger img{
   margin-left: 1rem;
-  width: 80px;
-  border-radius: 40%;
+  width: 7rem;
+  border-radius: 50%;
   display: block;
 
 }
@@ -1125,4 +1128,12 @@ nav.nav.about{
 .collection img{
   width: 100%;
   display: block;
+}
+nav.nav #logo{
+  padding:2rem;
+  font-size: 3rem;
+}
+header.about h3.section__header{
+  font-size: 2.7rem;
+  margin:3rem;
 }
